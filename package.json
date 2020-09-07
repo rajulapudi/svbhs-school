@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "deploy": "pm2 start ./bin/www --name svbhs --env production"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
