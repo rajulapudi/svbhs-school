@@ -935,7 +935,11 @@ th {
 .primary-btn.white:hover {
   color: #fff;
 }
-
+.login{
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  border-radius: 0px;
+}
 .overlay {
   position: absolute;
   left: 0;
@@ -3625,6 +3629,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .gallery .gallery-item {
   overflow: hidden;
+  height: 200px;
+  border-radius: 10px;
+  margin : 1px;
   border-right: 3px solid #454035;
   border-bottom: 3px solid #454035;
 }
