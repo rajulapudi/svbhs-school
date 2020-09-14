@@ -14,7 +14,19 @@
             class="venobox"
             data-gall="gallery-item"
           >
-            <img src="img/gallery/<%= index %>.jpg" alt="" class="img-fluid" />
+            <img
+              class="cat__img lazy img-fluid"
+              src="https://cdn.glitch.com/3a5b333c-942b-4088-9930-e7ea1e516118%2Fplaceholder.png?v=1560442648212"
+              data-src="img/gallery/<%= index %>.jpg"
+              alt="gallery"
+            />
+            <noscript>
+              <img
+                class="cat__img img-fluid"
+                src="img/gallery/<%= index %>.jpg"
+                alt="gallery"
+              />
+            </noscript>
           </a>
         </div>
       </div>
